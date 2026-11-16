@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-label="Akshay Bhuradia LinkedIn banner">
+  <defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0c0a10"/>
+    <stop offset="100%" stop-color="#110e18"/>
+  </linearGradient>
+  <radialGradient id="glow1" cx="70%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="92%" cy="75%" r="45%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+    <stop offset="40%" stop-color="#a78bfa"/>
+    <stop offset="100%" stop-color="#22d3ee"/>
+  </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow1)"/>
+  <rect width="1584" height="396" fill="url(#glow2)"/>
+  <!-- grid dots -->
+  <g opacity="0.12" fill="#ede9f7">
+    <circle cx="1180" cy="80" r="1.2"/><circle cx="1220" cy="80" r="1.2"/><circle cx="1260" cy="80" r="1.2"/>
+    <circle cx="1300" cy="80" r="1.2"/><circle cx="1340" cy="80" r="1.2"/><circle cx="1380" cy="80" r="1.2"/>
+    <circle cx="1420" cy="80" r="1.2"/><circle cx="1460" cy="80" r="1.2"/><circle cx="1500" cy="80" r="1.2"/>
+    <circle cx="1180" cy="120" r="1.2"/><circle cx="1220" cy="120" r="1.2"/><circle cx="1260" cy="120" r="1.2"/>
+    <circle cx="1300" cy="120" r="1.2"/><circle cx="1340" cy="120" r="1.2"/><circle cx="1380" cy="120" r="1.2"/>
+    <circle cx="1420" cy="120" r="1.2"/><circle cx="1460" cy="120" r="1.2"/><circle cx="1500" cy="120" r="1.2"/>
+  </g>
+  <!-- decorative brackets -->
+  <path d="M820 98h420" stroke="url(#line)" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <text x="820" y="168" fill="#ede9f7" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="46" font-weight="700" letter-spacing="-0.5">Akshay Bhuradia</text>
+  <text x="820" y="218" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="22" font-weight="500" letter-spacing="0.5">SENIOR BACKEND ENGINEER</text>
+  <text x="820" y="255" fill="#9d94b0" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="500">Payments (Column Bank)  | Card issuing  | Onboarding (Taktile, Socure, TransUnion)</text>
+  <text x="820" y="285" fill="#9d94b0" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="500">Reporting  | Live streaming  | Production &amp; bug fixing</text>
+  <text x="820" y="318" fill="#22d3ee" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">akshaybhuradia2020.github.io</text>
+  <!-- left safe zone hint (subtle mark only) -->
+  <text x="48" y="360" fill="#2e2840" font-family="ui-monospace,Menlo,monospace" font-size="14">{ backend  | production  | reliability }</text>
+</svg>
