@@ -94,17 +94,22 @@
 
   // Copy email
   var toast = document.getElementById("toast");
-  document.getElementById("copy-email").addEventListener("click", function () {
-    var email = "akshaybhuradia25@gmail.com";
+  function copyText(value, okMsg) {
     var done = function (msg) {
       toast.textContent = msg;
       toast.classList.add("show");
       setTimeout(function () { toast.classList.remove("show"); }, 1800);
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(email).then(function () { done("Email copied"); }, function () { done(email); });
+      navigator.clipboard.writeText(value).then(function () { done(okMsg); }, function () { done(value); });
     } else {
-      done(email);
+      done(value);
     }
+  }
+  document.getElementById("copy-email").addEventListener("click", function () {
+    copyText("akshaybhuradia25@gmail.com", "Email copied");
+  });
+  document.getElementById("copy-phone").addEventListener("click", function () {
+    copyText("+91-9716414797", "Phone copied");
   });
 })();
