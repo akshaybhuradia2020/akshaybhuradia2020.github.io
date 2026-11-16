@@ -13,7 +13,7 @@
     root.setAttribute("data-theme", next);
     localStorage.setItem("theme", next);
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", next === "dark" ? "#0b0d12" : "#fafafa");
+    if (meta) meta.setAttribute("content", next === "dark" ? "#0c0a10" : "#f7f5fb");
   });
 
   // Mobile menu
